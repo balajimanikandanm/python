@@ -11,12 +11,13 @@ def _printParenthesis(str, pos, bs,open, close):
 		print(); 
 		return; 
 	else: 
-		if(open > close): 
-			str[pos] = '}'; 
-			_printParenthesis(str, pos + 1, bs,open, close + 1); 
+		
 		if(open < bs): 
 			str[pos] = '{'; 
 			_printParenthesis(str, pos + 1, bs,open + 1, close); 
+		if(open > close): 
+			str[pos] = '}'; 
+			_printParenthesis(str, pos + 1, bs,open, close + 1); 
 
 
 bs = int(input()); 
