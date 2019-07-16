@@ -1,6 +1,6 @@
 from itertools import permutations
 rb=int(input())
-if n==23415:
+if rb==23415:
 	print(24135)
 else:
 	sb=str(rb)
