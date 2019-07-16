@@ -27,11 +27,5 @@ if __name__ =="__main__":
   rb=list(map(int,input().split()))
   for i in range (len(rb)):
     root=newNode(input())
-    print("Inorder traversal of the", 
-			"constructed tree is") 
-    inOrder(root)
-    mirror(root)
-    print("\nInorder traversal of", 
-			"the mirror treeis ") 
     inOrder(root) 
 
