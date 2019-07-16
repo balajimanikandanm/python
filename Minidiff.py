@@ -1,6 +1,6 @@
-rb=raw_input()
+rb=input()
 rb=int(rb)
-bs=raw_input().split()
+bs=input().split()
 l=[]
 w=0
 for i in range(rb):
