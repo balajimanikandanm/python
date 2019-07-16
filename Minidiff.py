@@ -12,4 +12,4 @@ for i in range(w/2):
 	f=l[i+(w/2)]-l[i]
 	k.append(f)
 k.sort()
-print k[0]
+print (k[0])
