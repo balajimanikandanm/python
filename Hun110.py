@@ -11,6 +11,6 @@ for i in S:
   elif int(i[:3])==190:
     A1.append('?')
   else:
-    A.append('*')
+    A1.append('*')
 for i in A1:
   print(i)
