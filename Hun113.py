@@ -1,12 +1,12 @@
-N1=int(input())
-if N1==1:
+N11=int(input())
+if N11==1:
     print("YES")
-elif N1%2!=0:
+elif N11%2!=0:
     print("NO")
 else:
-    while N1%2==0:
-        N1=N1//2
-    if N1==1:
+    while N11%2==0:
+        N11=N11//2
+    if N11==1:
         print("YES")
     else:
         print("NO")
