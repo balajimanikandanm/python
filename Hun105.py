@@ -1,0 +1,5 @@
+B = int(input())
+l = list(int(x) for x in str(B))
+po = len(l)
+fin = list(map(lambda x:x**po,l))
+print(sum(fin))
