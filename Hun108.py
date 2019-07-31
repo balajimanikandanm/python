@@ -3,7 +3,7 @@ bs=str(A)
 kl=[]
 s=[]
 summ=0
-for i in range(0,len(b)):
+for i in range(0,len(bs)):
     s.append(bs[i])
 kl=list(map(int,s))
 if len(kl)==1:
