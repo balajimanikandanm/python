@@ -1,6 +1,6 @@
 s1=input()
 l=s1.split(" ")
-f=1
+f1=1
 for i in range(len(l)):
   if l[i][0].isupper():
     f1=1
